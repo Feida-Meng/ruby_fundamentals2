@@ -17,4 +17,9 @@ def cohort_size(hash)
 end
 
 
+#step3
+students[:cohort4] = 43
+
+
+
 cohort_size(students)
