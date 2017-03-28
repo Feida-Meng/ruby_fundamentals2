@@ -23,4 +23,12 @@ students[:cohort4] = 43
 #step4
 puts students.keys
 
+#step5
+
+students.each do |key,value|
+  students[key] *= 1.05
+end
+
+
+
 cohort_size(students)
