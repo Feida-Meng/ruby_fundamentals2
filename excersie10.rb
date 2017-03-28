@@ -20,6 +20,7 @@ end
 #step3
 students[:cohort4] = 43
 
-
+#step4
+puts students.keys
 
 cohort_size(students)
