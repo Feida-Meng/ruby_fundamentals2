@@ -38,5 +38,6 @@ students.each do |_,value|
   sum += value
 end
 puts sum
+#ste8
 
 cohort_size(students)
