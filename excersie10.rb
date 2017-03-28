@@ -29,6 +29,7 @@ students.each do |key,value|
   students[key] *= 1.05
 end
 
-
+#step6
+students.delete(:cohort2)
 
 cohort_size(students)
