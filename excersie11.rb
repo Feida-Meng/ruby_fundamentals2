@@ -24,4 +24,13 @@ def get_absent_dogs(dogs)
 
 end
 
-puts get_absent_dogs(my_dogs)
+
+
+#step2
+def call_absent_dogs(missing_dogs)
+
+  get_absent_dogs(missing_dogs).each { |dog | puts "Come back, #{dog}" }
+
+end
+
+call_absent_dogs(my_dogs)
