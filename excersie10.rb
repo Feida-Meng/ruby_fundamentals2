@@ -32,4 +32,11 @@ end
 #step6
 students.delete(:cohort2)
 
+#step7
+sum = 0
+students.each do |_,value|
+  sum += value
+end
+puts sum
+
 cohort_size(students)
